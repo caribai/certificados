@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+#precios, #formulario {
+    background-color:#2F86A6;
+}
+
+i,h3{
+    color: #2F86A6;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+h1,h2,h4,h5,li,span{
+    color:white;
+}
+h6,p {
+    color:rgb(209, 209, 209)
+}
+
+#header {
+    position: relative;
+}
+header::before {
+    content: "";
+      background-image: url('assets/img/header.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
